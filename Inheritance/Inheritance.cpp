@@ -1,3 +1,7 @@
+// Jacob Neuman
+// 11/58/2021
+// CIS 1202 501
+
 #include "Car.h"
 #include "Truck.h"
 #include "Vehicle.h"

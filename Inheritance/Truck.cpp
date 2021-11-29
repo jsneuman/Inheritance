@@ -9,8 +9,9 @@ void Truck::displayInfo()
 	string manufacturer;
 	int year;
 
-	cout << "Vehicle:" << endl;
+	cout << "Truck:" << endl;
 	cout << "Enter the manufacturer: ";
+	cin.ignore();
 	getline(cin, manufacturer);
 	setManufacurer(manufacturer);
 	cout << "Enter the year built: ";
@@ -23,5 +24,5 @@ void Truck::displayInfo()
 	cout << "Vehicle Information:" << endl;
 	cout << "Manufacturer: " << getManufacurer() << endl;
 	cout << "Year Built: " << getYear() << endl;
-	cout << "Towing capacity: " << getCapacity() << endl;
+	cout << "Towing capacity: " << getCapacity() << endl << endl;
 }

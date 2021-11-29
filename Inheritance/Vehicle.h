@@ -17,11 +17,11 @@ public:
 	string getManufacurer()
 	{ return manufacturer; }
 	void setManufacurer(string itemManufactuer)
-	{ itemManufactuer = manufacturer; }
+	{ manufacturer = itemManufactuer; }
 	int getYear()
 	{ return year; }
 	void setYear(int itemYear)
-	{ itemYear = year; }
+	{ year = itemYear; }
 	void displayInfo();
 };
 #endif
