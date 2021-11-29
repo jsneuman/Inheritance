@@ -15,20 +15,13 @@ public:
 		year = 0;
 	}
 	string getManufacurer()
-	{
-		return manufacturer;
-	}
+	{ return manufacturer; }
 	void setManufacurer(string itemManufactuer)
-	{
-		itemManufactuer = manufacturer;
-	}
+	{ itemManufactuer = manufacturer; }
 	int getYear()
-	{
-		return year;
-	}
+	{ return year; }
 	void setYear(int itemYear)
-	{
-		itemYear = year;
-	}
+	{ itemYear = year; }
+	void displayInfo();
 };
 #endif
